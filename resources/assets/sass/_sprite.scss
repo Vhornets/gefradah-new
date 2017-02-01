@@ -1,0 +1,299 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arrow-back-white-name: 'arrow-back-white';
+$arrow-back-white-x: 64px;
+$arrow-back-white-y: 0px;
+$arrow-back-white-offset-x: -64px;
+$arrow-back-white-offset-y: 0px;
+$arrow-back-white-width: 32px;
+$arrow-back-white-height: 32px;
+$arrow-back-white-total-width: 144px;
+$arrow-back-white-total-height: 128px;
+$arrow-back-white-image: '/img/sprite.png';
+$arrow-back-white: (64px, 0px, -64px, 0px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'arrow-back-white', );
+$bandcamp-white-name: 'bandcamp-white';
+$bandcamp-white-x: 32px;
+$bandcamp-white-y: 96px;
+$bandcamp-white-offset-x: -32px;
+$bandcamp-white-offset-y: -96px;
+$bandcamp-white-width: 32px;
+$bandcamp-white-height: 32px;
+$bandcamp-white-total-width: 144px;
+$bandcamp-white-total-height: 128px;
+$bandcamp-white-image: '/img/sprite.png';
+$bandcamp-white: (32px, 96px, -32px, -96px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'bandcamp-white', );
+$download-white-small-name: 'download-white-small';
+$download-white-small-x: 128px;
+$download-white-small-y: 64px;
+$download-white-small-offset-x: -128px;
+$download-white-small-offset-y: -64px;
+$download-white-small-width: 16px;
+$download-white-small-height: 16px;
+$download-white-small-total-width: 144px;
+$download-white-small-total-height: 128px;
+$download-white-small-image: '/img/sprite.png';
+$download-white-small: (128px, 64px, -128px, -64px, 16px, 16px, 144px, 128px, '/img/sprite.png', 'download-white-small', );
+$download-white-name: 'download-white';
+$download-white-x: 0px;
+$download-white-y: 64px;
+$download-white-offset-x: 0px;
+$download-white-offset-y: -64px;
+$download-white-width: 32px;
+$download-white-height: 32px;
+$download-white-total-width: 144px;
+$download-white-total-height: 128px;
+$download-white-image: '/img/sprite.png';
+$download-white: (0px, 64px, 0px, -64px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'download-white', );
+$email-white-name: 'email-white';
+$email-white-x: 32px;
+$email-white-y: 64px;
+$email-white-offset-x: -32px;
+$email-white-offset-y: -64px;
+$email-white-width: 32px;
+$email-white-height: 32px;
+$email-white-total-width: 144px;
+$email-white-total-height: 128px;
+$email-white-image: '/img/sprite.png';
+$email-white: (32px, 64px, -32px, -64px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'email-white', );
+$external-url-name: 'external-url';
+$external-url-x: 128px;
+$external-url-y: 96px;
+$external-url-offset-x: -128px;
+$external-url-offset-y: -96px;
+$external-url-width: 8px;
+$external-url-height: 8px;
+$external-url-total-width: 144px;
+$external-url-total-height: 128px;
+$external-url-image: '/img/sprite.png';
+$external-url: (128px, 96px, -128px, -96px, 8px, 8px, 144px, 128px, '/img/sprite.png', 'external-url', );
+$facebook-white-name: 'facebook-white';
+$facebook-white-x: 96px;
+$facebook-white-y: 0px;
+$facebook-white-offset-x: -96px;
+$facebook-white-offset-y: 0px;
+$facebook-white-width: 32px;
+$facebook-white-height: 32px;
+$facebook-white-total-width: 144px;
+$facebook-white-total-height: 128px;
+$facebook-white-image: '/img/sprite.png';
+$facebook-white: (96px, 0px, -96px, 0px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'facebook-white', );
+$github-white-name: 'github-white';
+$github-white-x: 96px;
+$github-white-y: 32px;
+$github-white-offset-x: -96px;
+$github-white-offset-y: -32px;
+$github-white-width: 32px;
+$github-white-height: 32px;
+$github-white-total-width: 144px;
+$github-white-total-height: 128px;
+$github-white-image: '/img/sprite.png';
+$github-white: (96px, 32px, -96px, -32px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'github-white', );
+$headphones-white-name: 'headphones-white';
+$headphones-white-x: 128px;
+$headphones-white-y: 32px;
+$headphones-white-offset-x: -128px;
+$headphones-white-offset-y: -32px;
+$headphones-white-width: 16px;
+$headphones-white-height: 16px;
+$headphones-white-total-width: 144px;
+$headphones-white-total-height: 128px;
+$headphones-white-image: '/img/sprite.png';
+$headphones-white: (128px, 32px, -128px, -32px, 16px, 16px, 144px, 128px, '/img/sprite.png', 'headphones-white', );
+$lastfm-white-name: 'lastfm-white';
+$lastfm-white-x: 0px;
+$lastfm-white-y: 96px;
+$lastfm-white-offset-x: 0px;
+$lastfm-white-offset-y: -96px;
+$lastfm-white-width: 32px;
+$lastfm-white-height: 32px;
+$lastfm-white-total-width: 144px;
+$lastfm-white-total-height: 128px;
+$lastfm-white-image: '/img/sprite.png';
+$lastfm-white: (0px, 96px, 0px, -96px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'lastfm-white', );
+$mp3-white-name: 'mp3-white';
+$mp3-white-x: 128px;
+$mp3-white-y: 80px;
+$mp3-white-offset-x: -128px;
+$mp3-white-offset-y: -80px;
+$mp3-white-width: 16px;
+$mp3-white-height: 16px;
+$mp3-white-total-width: 144px;
+$mp3-white-total-height: 128px;
+$mp3-white-image: '/img/sprite.png';
+$mp3-white: (128px, 80px, -128px, -80px, 16px, 16px, 144px, 128px, '/img/sprite.png', 'mp3-white', );
+$pdf-white-name: 'pdf-white';
+$pdf-white-x: 128px;
+$pdf-white-y: 16px;
+$pdf-white-offset-x: -128px;
+$pdf-white-offset-y: -16px;
+$pdf-white-width: 16px;
+$pdf-white-height: 16px;
+$pdf-white-total-width: 144px;
+$pdf-white-total-height: 128px;
+$pdf-white-image: '/img/sprite.png';
+$pdf-white: (128px, 16px, -128px, -16px, 16px, 16px, 144px, 128px, '/img/sprite.png', 'pdf-white', );
+$share-white-small-name: 'share-white-small';
+$share-white-small-x: 128px;
+$share-white-small-y: 0px;
+$share-white-small-offset-x: -128px;
+$share-white-small-offset-y: 0px;
+$share-white-small-width: 16px;
+$share-white-small-height: 16px;
+$share-white-small-total-width: 144px;
+$share-white-small-total-height: 128px;
+$share-white-small-image: '/img/sprite.png';
+$share-white-small: (128px, 0px, -128px, 0px, 16px, 16px, 144px, 128px, '/img/sprite.png', 'share-white-small', );
+$share-white-name: 'share-white';
+$share-white-x: 96px;
+$share-white-y: 96px;
+$share-white-offset-x: -96px;
+$share-white-offset-y: -96px;
+$share-white-width: 32px;
+$share-white-height: 32px;
+$share-white-total-width: 144px;
+$share-white-total-height: 128px;
+$share-white-image: '/img/sprite.png';
+$share-white: (96px, 96px, -96px, -96px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'share-white', );
+$soundcloud-white-name: 'soundcloud-white';
+$soundcloud-white-x: 64px;
+$soundcloud-white-y: 96px;
+$soundcloud-white-offset-x: -64px;
+$soundcloud-white-offset-y: -96px;
+$soundcloud-white-width: 32px;
+$soundcloud-white-height: 32px;
+$soundcloud-white-total-width: 144px;
+$soundcloud-white-total-height: 128px;
+$soundcloud-white-image: '/img/sprite.png';
+$soundcloud-white: (64px, 96px, -64px, -96px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'soundcloud-white', );
+$twitter-white-name: 'twitter-white';
+$twitter-white-x: 96px;
+$twitter-white-y: 64px;
+$twitter-white-offset-x: -96px;
+$twitter-white-offset-y: -64px;
+$twitter-white-width: 32px;
+$twitter-white-height: 32px;
+$twitter-white-total-width: 144px;
+$twitter-white-total-height: 128px;
+$twitter-white-image: '/img/sprite.png';
+$twitter-white: (96px, 64px, -96px, -64px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'twitter-white', );
+$view-white-small-name: 'view-white-small';
+$view-white-small-x: 128px;
+$view-white-small-y: 48px;
+$view-white-small-offset-x: -128px;
+$view-white-small-offset-y: -48px;
+$view-white-small-width: 16px;
+$view-white-small-height: 16px;
+$view-white-small-total-width: 144px;
+$view-white-small-total-height: 128px;
+$view-white-small-image: '/img/sprite.png';
+$view-white-small: (128px, 48px, -128px, -48px, 16px, 16px, 144px, 128px, '/img/sprite.png', 'view-white-small', );
+$view-white-name: 'view-white';
+$view-white-x: 64px;
+$view-white-y: 64px;
+$view-white-offset-x: -64px;
+$view-white-offset-y: -64px;
+$view-white-width: 32px;
+$view-white-height: 32px;
+$view-white-total-width: 144px;
+$view-white-total-height: 128px;
+$view-white-image: '/img/sprite.png';
+$view-white: (64px, 64px, -64px, -64px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'view-white', );
+$vkontakte-white-name: 'vkontakte-white';
+$vkontakte-white-x: 64px;
+$vkontakte-white-y: 32px;
+$vkontakte-white-offset-x: -64px;
+$vkontakte-white-offset-y: -32px;
+$vkontakte-white-width: 32px;
+$vkontakte-white-height: 32px;
+$vkontakte-white-total-width: 144px;
+$vkontakte-white-total-height: 128px;
+$vkontakte-white-image: '/img/sprite.png';
+$vkontakte-white: (64px, 32px, -64px, -32px, 32px, 32px, 144px, 128px, '/img/sprite.png', 'vkontakte-white', );
+$zoom-white-name: 'zoom-white';
+$zoom-white-x: 0px;
+$zoom-white-y: 0px;
+$zoom-white-offset-x: 0px;
+$zoom-white-offset-y: 0px;
+$zoom-white-width: 64px;
+$zoom-white-height: 64px;
+$zoom-white-total-width: 144px;
+$zoom-white-total-height: 128px;
+$zoom-white-image: '/img/sprite.png';
+$zoom-white: (0px, 0px, 0px, 0px, 64px, 64px, 144px, 128px, '/img/sprite.png', 'zoom-white', );
+$spritesheet-width: 144px;
+$spritesheet-height: 128px;
+$spritesheet-image: '/img/sprite.png';
+$spritesheet-sprites: ($arrow-back-white, $bandcamp-white, $download-white-small, $download-white, $email-white, $external-url, $facebook-white, $github-white, $headphones-white, $lastfm-white, $mp3-white, $pdf-white, $share-white-small, $share-white, $soundcloud-white, $twitter-white, $view-white-small, $view-white, $vkontakte-white, $zoom-white, );
+$spritesheet: (144px, 128px, '/img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

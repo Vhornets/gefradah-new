@@ -1,0 +1,36 @@
+html {
+    @include rem-baseline(12px);
+
+    @media(min-width: $screen-md) {
+        @include rem-baseline(12px);
+    }
+
+    @media(min-width: $screen-lg) {
+        @include rem-baseline(14px);
+    }
+
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $font-family-main;
+    color: $color-primary;
+    background-color: #111;
+}
+
+button {
+    cursor: pointer;
+}
+
+button, a {
+    font-family: $font-family-main;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

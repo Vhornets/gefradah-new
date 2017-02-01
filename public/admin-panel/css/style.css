@@ -1,0 +1,46 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#editor {
+    height: 175px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    vertical-align: middle;
+}
+
+.ql-toolbar, .ql-container {
+    background: #fff;
+    color: #000;
+}
+
+.release-image {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.release-image__controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.release-image__controls a, .release-image__controls form {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.release-image__controls h5 {
+    margin-top: 8px;
+}
