@@ -62,6 +62,20 @@ gulp.task('sprite', function () {
     })
     .pipe(gulp.dest('./'));
 });
+
+gulp.task('js-uglify', function() {
+    gulp.src('public/js/**/*.js')
+        .on('error', function(err){
+            gutil.log(gutil.colors.red.bold('[uglify error]'));
+            gutil.log(err.message);
+            this.emit('end');
+        })
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(uglify())
+        .pipe(gulp.dest('public/js/dist'));
+});
  
 gulp.task('watch', () => {
     gulp.watch('resources/assets/jsx/**/*.jsx', ['jsx']);

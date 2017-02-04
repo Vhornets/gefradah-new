@@ -35,6 +35,8 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
+    Route::get('/', 'Admin\HomeController@index');
+
     Route::resource('releases', 'Admin\ReleaseController');
     Route::resource('releases.downloads', 'Admin\DownloadController');
     Route::resource('releases.images', 'Admin\ImageController');

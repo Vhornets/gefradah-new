@@ -29,8 +29,12 @@
 
 <body>
     <div id="app" class="c-app"></div>
-
-    <script src="/js/bundle.js"></script>
+    
+    @if(env('APP_ENV') == 'production')
+        <script src="/js/dist/bundle.min.js"></script>
+    @else
+        <script src="/js/bundle.js"></script>
+    @endif
 
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

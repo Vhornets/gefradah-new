@@ -8,11 +8,23 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    @foreach($releases as $release)
-                        <a href="{{ url('/admin/release/' . $release->id . '/edit') }}">
-                            {{$release->title}}
+                    <div class="list-group">
+                        <a href="{{url('/admin/releases')}}" class="list-group-item">
+                            Releases
                         </a>
-                    @endforeach
+
+                        <a href="{{ url('/admin/pages') }}" class="list-group-item">
+                            Pages
+                        </a>
+
+                        <a href="{{ url('/admin/menus') }}" class="list-group-item">
+                            Menus
+                        </a>
+                    
+                        <a href="{{ url('/admin/sociallinks') }}" class="list-group-item">
+                            Social links
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
