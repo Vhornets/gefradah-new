@@ -28,3 +28,21 @@ if(document.querySelector('#editor')) {
         });
     });
 }
+
+var slug = function(str) {
+    var $slug = '';
+    var trimmed = $.trim(str);
+    $slug = trimmed.replace(/[^a-z0-9-]/gi, '-').
+    replace(/-+/g, '-').
+    replace(/^-|-$/g, '');
+    return $slug.toLowerCase();
+}
+
+$('input[name="title"]').on('blur', function() {
+    $self = $(this);
+    $slug = $('input[name="slug"]');
+
+    if(!$slug.val()) {
+        $slug.val( slug($self.val()) );
+    }
+}).trigger('blur');
